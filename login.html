@@ -1,26 +1,18 @@
 <div class="container-register">
   <h4 class="text-center sub-title">! Inicia Sesión !</h4>
 
-  <div
-    class="container-form"
-    style="width: 50%; justify-content: center; margin: auto"
-  >
+  <div class="container-form" style="width: 50%; justify-content: center; margin: auto">
     <input type="text" placeholder="Correo" />
     <input type="password" placeholder="Contraseña" />
+    
+    <!-- Botón de iniciar sesión -->
     <button class="button-primary">Iniciar Sesión</button>
-    <span class="text-center" style="color: white"
-      >¿ Aun no te haz registrado ?</span
-    >
-    <span
-      class="text-center"
-      style="color: white"
-      onclick="loadPage('./register.html')"
-      >Registrate aqui</span
-    >
-  </div>
+    
+    <!-- Texto de ayuda -->
+    <span class="text-center" style="color: white">¿ Aun no te haz registrado ?</span>
+    <span class="text-center" style="color: white" onclick="loadPage('./register.html')">Registrate aqui</span>
 
-  <div style="text-align: center; margin-top: 20px;">
+    <!-- BOTÓN NUEVO CORRECTAMENTE UBICADO -->
     <button class="button-primary" onclick="loadPage('index.html')">Volver al inicio</button>
   </div>
 </div>
-
