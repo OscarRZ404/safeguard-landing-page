@@ -298,7 +298,11 @@ span {
 
 .container-register {
   background-image: url("../assets/images/banner-landing.jpg");
-  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  padding: 40px 0; /* Espaciado vertical para evitar cortes */
 }
 
 .w-full {
