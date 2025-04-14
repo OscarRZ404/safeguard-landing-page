@@ -313,3 +313,40 @@ span {
   margin-left: 40%;
   width: 40%;
 }
+
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url('../assets/images/your-banner.jpg'); /* si corresponde */
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
+  position: relative;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  width: 100%;
+  max-width: 600px;
+  padding: 1rem;
+}
+
+.container-buttons {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 100%;
+}
+
+.container-buttons .button-primary {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
