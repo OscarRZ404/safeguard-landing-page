@@ -313,15 +313,3 @@ span {
   margin-left: 40%;
   width: 40%;
 }
-
-.banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-image: url('../assets/images/your-banner.jpg'); /* si corresponde */
-  background-size: cover;
-  background-position: center;
-  height: 100vh;
-  text-align: center;
-  position: relative;
-}
